@@ -1,0 +1,119 @@
+.profil__container {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profil__block {
+  margin-top: 12px;
+  background-color: $color-1;
+  height: 200px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profil__user {
+  padding: 12px;
+}
+
+.profil__user__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profil__user__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profil__user__name {
+  color: $white;
+}
+
+.profil__user__email {
+  color: $white;
+}
+
+.profil__post__container {
+  margin-top: 12px;
+  background-color: $color-1;
+  width: 60%;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profil__post {
+  background-color: $white;
+  width: 95%;
+  margin: 4px;
+  border-radius: 15px;
+  color: $color-1;
+  padding: 4px;
+}
+
+.profil__post__info {
+  padding: 12px;
+}
+
+.profil__post__info__user {
+  display: flex;
+
+  img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.profil__post__info__user__info {
+  padding-left: 8px;
+}
+
+.profil__post__content {
+  padding: 8px 8px 8px 8px;
+  border-bottom: 1px solid $grey;
+}
+
+.profil__post__content__postcontent {
+  margin-bottom: 12px;
+}
+
+.profil__post__content__attachment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.profil__post__likecomment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $grey;
+  padding-top: 8px;
+}
+
+.profil__post__like {
+  cursor: pointer;
+  color: $color-1;
+
+  &--grey {
+    cursor: pointer;
+    color: $grey;
+  }
+}

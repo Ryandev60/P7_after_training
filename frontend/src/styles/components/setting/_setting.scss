@@ -1,0 +1,93 @@
+.containerparam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+
+  label {
+    margin: 4px 8px 4px 4px;
+  }
+  input {
+    width: 200px;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .message__newpassword {
+    height: 30px;
+  }
+
+  .nameimage {
+    height: 16px;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.paramspace {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-1;
+  width: 300px;
+  padding: 12px;
+  margin-top: 20px;
+  p {
+    color: $white;
+    margin: 8px;
+  }
+}
+
+.modify {
+  display: flex;
+  flex-direction: column;
+}
+
+.modifybutton {
+  background-color: $white;
+  color: $color-1;
+  font-size: 13px;
+  border-radius: 15px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  transition: 0.25s;
+
+  &:hover {
+    background-color: $color-1;
+    color: $white;
+  }
+}
+
+.modify__align {
+  color: $white;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 16px;
+  }
+}
+
+.modify__avatar__text {
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.modify__error {
+  height: 16px;
+  font-size: 14px;
+  color: red;
+}
+
+.message__newpassword__success {
+  color: green;
+}

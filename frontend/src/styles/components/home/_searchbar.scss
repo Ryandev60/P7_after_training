@@ -1,0 +1,64 @@
+.searchbar__container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 12px;
+ position: relative;
+}
+
+.searchbar {
+ height: 34px;
+ width:196px;
+ padding: 7px 8px 9px 8px;
+ background-color: $lightgrey;
+ border-radius: 15px;
+}
+
+.searchbar__userlist {
+ height: auto;
+ width: 300px;
+ top: 30px;
+ position: absolute;
+ z-index: 1;
+ background-color: $lightgrey;
+ overflow: hidden;
+ animation: appear 0.25s forwards;
+ border-radius: 15px;
+}
+
+@keyframes appear {
+ from {
+   opacity: 0;
+ }
+
+ to {
+   opacity: 1;
+ }
+}
+
+.searchbar__user {
+ display: flex;
+ padding: 8px;
+ border-bottom: 1px solid $grey;
+cursor: pointer;
+}
+
+.searchbar__user__info {
+ display: flex;
+ padding: 8px;
+}
+
+.searchbar__user__avatar {
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ object-fit: cover;
+ overflow: hidden;
+}
+
+.searchbar__user__name {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 8px;
+}

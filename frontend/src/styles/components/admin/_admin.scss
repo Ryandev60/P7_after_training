@@ -1,0 +1,47 @@
+.container__admin {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+
+.admin__space {
+ border-radius: 15px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ background-color: $color-1;
+ width: 296px;
+ padding: 12px;
+
+ h1 {
+  color: $white;
+  font-size: 20px;
+ }
+
+ p {
+  color: $black;
+ }
+
+ img {
+  height: 40px;
+  width: 40px;
+  border-radius:50%;
+  object-fit: cover;
+ }
+
+ .user__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 8px 0;
+  padding: 8px;
+  background-color: $white;
+  border-radius: 15px;
+  width: 280px;
+
+  .icon {
+   color: $color-1;
+  }
+ }
+
+}
